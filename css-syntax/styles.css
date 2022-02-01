@@ -18,3 +18,15 @@ article {
   font-family: monospace;
   font-size: 24px;
 }
+
+#html {
+  color: red;
+}
+
+#css {
+  color: green;
+}
+
+#js {
+  color: blue;
+}
