@@ -85,10 +85,22 @@
     <p>Like what you see? Become a part of the JOTMC family today!</p>
     <form
       action="file:///C:/Users/Owen/repos/m1-0122-code-solutions/html-web-page/index.html"
-      method="get"
-      onsubmit="return false">
-      <div class="jotmc-user-reg">
-
+      method="get">
+      <div class="jotmc-user-input">
+        <label for="user-name">
+          <input type="text" name="user-name" id="user-name" placeholder="Your Name" required="required">
+        </label>
+        <label for="plan-selection">
+          <select name="plan" id="plan-selection" required="required">
+            <option value="Select Your Plan&colon;" disabled>Select Your Plan&colon;</option>
+            <option value="Basic Plan">Basic Plan</option>
+            <option value="Deluxe Plan">Delux Plan</option>
+            <option value="Jelly Giant Plan">Jelly Giant Plan</option>
+          </select>
+        </label>
+        <label for="submit-user-info">
+          <input type="submit" id="submit-user-info" value="Submit">
+        </label>
       </div>
     </form>
   </div>
