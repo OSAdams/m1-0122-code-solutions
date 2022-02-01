@@ -13,3 +13,8 @@ article {
   border-radius: 6px;
   margin-bottom: 16px;
 }
+
+.title {
+  font-family: monospace;
+  font-size: 24px;
+}
