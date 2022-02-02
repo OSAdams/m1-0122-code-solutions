@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+button {
+  padding: 5px 15px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #020202;
+  color: #fefefe;
+}
+
+th {
+  background-color: #020202;
+  color: #fefefe;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #c7c7c7;
+}
