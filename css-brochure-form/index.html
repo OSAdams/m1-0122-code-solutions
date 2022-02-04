@@ -19,7 +19,7 @@
           <div class="input-container">
 
             <label for="company-email">
-              <input type="email" id="company-email" placeholder="sally@company.co">
+              <input name="register-company" type="email" id="company-email" placeholder="sally@company.co">
             </label>
 
           </div>
@@ -30,7 +30,7 @@
           <div class="input-container">
 
             <label for="company-name">
-              <input type="text" id="company-name" placeholder="Sally Smith">
+              <input name="register-company" type="text" id="company-name" placeholder="Sally Smith">
             </label>
 
           </div>
@@ -40,8 +40,32 @@
           <div class="input-container">
 
             <label for="company-email">
-              <input type="text" id="company-location" placeholder="City, Country">
+              <input name="register-company" type="text" id="company-location" placeholder="City, Country">
             </label>
+
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>How many engineers are you hiring in the next 6 months&quest;</legend>
+          <div class="input-container">
+
+            <select name="register-company" id="company-hiring">
+              <option value="1-2">
+                <label for="company-hiring">
+                  1-2 Engineers
+                </label>
+              </option>
+              <option value="3-4">
+                <label for="company-hiring">
+                  3-4 Engineers
+                </label>
+              </option>
+              <option value="5-or-more">
+                <label for="company-hiring">
+                  5 or more Engineers
+                </label>
+              </option>
+            </select>
 
           </div>
         </fieldset>
