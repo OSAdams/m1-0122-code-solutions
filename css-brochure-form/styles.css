@@ -40,3 +40,17 @@ div.register-container > form > fieldset > div.input-container > label > input {
   border: 1px solid #dddddd;
   border-radius: 5px;
 }
+
+::placeholder {
+  font-family: AtlastGrotesk, sans-serif;
+}
+
+div.register-container > form > fieldset > div.input-container > select {
+  width: 100%;
+  padding: 0.65rem 0;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  font-family: "Brandon Grotesque", sans-serif;
+  font-weight: bold;
+  background-color: #eeeeee;
+}
