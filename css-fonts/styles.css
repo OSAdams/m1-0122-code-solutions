@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  color: #0e0e0e;
+}
+
+div {
+  margin: auto;
+  width: 40%;
+}
+
+h1, h2 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
