@@ -34,7 +34,7 @@ div.register-container > form > fieldset > legend {
   font-size: 10px;
 }
 
-div.register-container > form > fieldset > div.input-container > label > input {
+div.input-container > label > input {
   width: 100%;
   padding: 0.75rem 0 0.75rem 0.75rem;
   border: 1px solid #dddddd;
@@ -45,7 +45,7 @@ div.register-container > form > fieldset > div.input-container > label > input {
   font-family: AtlastGrotesk, sans-serif;
 }
 
-div.register-container > form > fieldset > div.input-container > select {
+div.input-container > select {
   width: 100%;
   padding: 0.65rem 0;
   border: 1px solid #dddddd;
@@ -53,4 +53,15 @@ div.register-container > form > fieldset > div.input-container > select {
   font-family: "Brandon Grotesque", sans-serif;
   font-weight: bold;
   background-color: #eeeeee;
+}
+
+div.input-container > input {
+  float: right;
+  text-transform: uppercase;
+  font-family: "Brandon Grotesque", sans-serif;
+  padding: 0.5rem 1rem;
+  border: 0 solid rgb(255, 94, 0);
+  background-color: rgb(255, 94, 0);
+  color: #fefefe;
+  border-radius: 25px;
 }
