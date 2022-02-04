@@ -20,3 +20,12 @@ div.container > h1 {
   text-align: center;
   color: rgb(255, 94, 0);
 }
+
+div.container > div.register-container {
+  margin: auto;
+  width: 40%;
+}
+
+div.register-container > form > fieldset {
+  border: 0;
+}
