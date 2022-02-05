@@ -32,9 +32,10 @@ div.register-container > form > fieldset > legend {
   font-family: "Brandon Grotesque", sans-serif;
   font-weight: bold;
   font-size: 10px;
+  cursor: pointer;
 }
 
-div.input-container > input {
+div.input-container > input.text-input {
   width: 100%;
   padding: 0.75rem 0 0.75rem 0.75rem;
   border: 1px solid #dddddd;
@@ -64,4 +65,8 @@ div.input-container > input.form-submit {
   background-color: rgb(255, 94, 0);
   color: #fefefe;
   border-radius: 25px;
+}
+
+label:hover {
+  cursor: pointer;
 }
