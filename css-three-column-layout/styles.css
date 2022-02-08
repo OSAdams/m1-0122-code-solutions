@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background-color: rgb(25 150 218 / 25500%);
+  font-family: Lato, sans-serif;
+  color: #fefefe;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: lighter;
+}
