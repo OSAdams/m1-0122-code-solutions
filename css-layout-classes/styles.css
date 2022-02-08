@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: #222;
+}
+
+.container {
+  max-width: 800px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: #fefefe;
+}
+
+img {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-one-third {
+  flex-basis: calc(100% / 3);
+}
+
+.column-two-thirds {
+  flex-basis: calc(2 / 3 * 100%);
+}
+
+.column-one-fourth {
+  flex-basis: 25%;
+}
