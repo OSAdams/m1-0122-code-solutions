@@ -15,6 +15,10 @@ body {
   background-color: #fefefe;
 }
 
+img {
+  width: 100%;
+}
+
 .row {
   display: flex;
 }
@@ -27,6 +31,6 @@ body {
   flex-basis: calc(100% / 3);
 }
 
-img {
-  width: 100%;
+.column-one-fourth {
+  flex-basis: 25%;
 }
