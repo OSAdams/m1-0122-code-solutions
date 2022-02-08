@@ -1,13 +1,40 @@
 .container {
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  background-color: rgb(25 150 218 / 25500%);
+  min-height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
   font-family: Lato, sans-serif;
   color: #fefefe;
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-weight: lighter;
+}
+
+.row {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-one-third {
+  flex-basis: 2%;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+div.column-one-third > div {
+  background-color: #fefefe;
+  border-radius: 50%;
+  width: 100px;
+}
+
+img {
+  width: 100%;
+  padding: 1.5rem;
 }
