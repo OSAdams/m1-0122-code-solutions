@@ -21,14 +21,14 @@ h1 {
   flex-basis: 100%;
 }
 
-.column-one-third {
-  flex-basis: 2%;
+.column-one-fourth {
+  flex-basis: 25%;
   display: flex;
   justify-content: center;
   padding: 1rem;
 }
 
-div.column-one-third > div {
+div.column-one-fourth > div {
   background-color: #fefefe;
   border-radius: 50%;
   width: 100px;
