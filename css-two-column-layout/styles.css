@@ -29,7 +29,13 @@ p {
   width: 100%;
 }
 
-.text-container {
+.column-half {
+  width: 50%;
+  display: flex;
+  text-align: initial;
+}
+
+.description-container {
   width: 85%;
   margin: auto;
 }
