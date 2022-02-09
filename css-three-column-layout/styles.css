@@ -19,39 +19,31 @@ h2 {
 .row {
   display: flex;
   text-align: center;
-  justify-content: space-evenly;
 }
 
 .column-full {
   flex-basis: 100%;
 }
 
-.column-one-fourth {
-  flex-basis: 25%;
+.column-one-third {
+  flex-basis: calc(100% / 3);
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   padding: 1rem;
 }
 
-div.column-one-fourth > div {
+.image-container {
   background-color: #fefefe;
   border-radius: 50%;
   width: 100px;
 }
 
-img {
+.image-container > img {
   width: 100%;
   padding: 1.5rem;
 }
 
-.desc-header {
-  flex-direction: column;
+.info-container {
   flex-basis: 27%;
   padding: 0;
-}
-
-div.desc-header > p {
-  font-size: 0.8rem;
-  line-height: 20px;
-  margin: 0;
 }
