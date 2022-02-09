@@ -4,3 +4,32 @@
   color: #222;
   width: 800px;
 }
+
+.text-uppercase {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.title {
+  font-size: 3.25rem;
+  margin: 1rem;
+}
+
+p {
+  margin: 0;
+  line-height: 30px;
+}
+
+.row {
+  display: flex;
+  text-align: center;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.text-container {
+  width: 85%;
+  margin: auto;
+}
