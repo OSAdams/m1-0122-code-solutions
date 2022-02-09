@@ -5,13 +5,12 @@
   max-width: 880px;
 }
 
-h1.text-uppercase {
+.text-uppercase {
   text-transform: uppercase;
-  letter-spacing: 2px;
 }
 
-h3.text-uppercase {
-  text-transform: uppercase;
+.column-full > h1 {
+  letter-spacing: 2px;
 }
 
 .title {
@@ -51,4 +50,19 @@ h3 {
 
 .text-container > p {
   padding-right: 2.5rem;
+}
+
+.send-it {
+  border: 1px solid #d14c45;
+  border-radius: 2px;
+  font-weight: bold;
+  width: 10rem;
+  padding: 5px 0;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+a {
+  text-decoration: none;
+  color: #d14c45;
 }
