@@ -1,0 +1,7 @@
+/*
+Hiding linter error
+Ignore ruleset for .hidden selector
+*/
+.hidden {
+  display: none;
+}
