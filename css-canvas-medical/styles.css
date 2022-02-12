@@ -2,4 +2,37 @@
   margin: auto;
   background-color: #fefefe;
   min-height: 100vh;
+  font-family: Avenir, sans-serif;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.row-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-half {
+  width: 50%;
+}
+
+.col-one-fifth {
+  width: calc(100% / 5);
+}
+
+hr {
+  height: 1px;
+  background-color: #e7e9ec;
+  border: none;
+}
+
+.hidden {
+  display: none;
 }
