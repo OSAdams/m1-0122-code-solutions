@@ -1,0 +1,27 @@
+/*
+Hiding linter error
+Ignore ruleset for .hidden selector
+*/
+.hidden {
+  display: none;
+}
+
+#timbl {
+  color: red;
+}
+
+#verou {
+  color: black !important;
+}
+
+.bio {
+  color: green;
+}
+
+p {
+  color: orange;
+}
+
+* {
+  color: blue;
+}
