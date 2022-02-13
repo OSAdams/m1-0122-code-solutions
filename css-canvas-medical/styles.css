@@ -1,8 +1,7 @@
 .container {
   margin: auto;
-  background-color: #fefefe;
   font-family: Avenir, sans-serif;
-  width: 80%;
+  width: 69%;
 }
 
 .row {
@@ -19,6 +18,10 @@
   padding-right: 6rem;
 }
 
+.col-full {
+  width: 100%;
+}
+
 .col-half {
   width: 50%;
 }
@@ -28,8 +31,8 @@
   color: #a0a0a0;
 }
 
-/* ALL BUTTONS */
-.def-button {
+/* TEMPLATE FOR ALL BUTTONS */
+.nav-button {
   color: #fefefe;
   background-color: #294464;
   padding: 1rem;
@@ -46,6 +49,22 @@ hr {
   border: none;
 }
 
-.hidden {
-  display: none;
+.info-img {
+  background-image: url("images/hero.jpg");
+  background-size: contain;
+  height: 630px;
+  position: relative;
+}
+
+.overlay {
+  background: linear-gradient(transparent, rgb(0 0 0 / 30%));
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.pad {
+  padding: 1rem 6rem;
 }
