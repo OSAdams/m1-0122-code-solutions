@@ -16,7 +16,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-right: 5rem;
+  padding-right: 6rem;
 }
 
 .col-half {
@@ -37,7 +37,7 @@
 }
 
 .nav-logo {
-  padding-left: 5rem;
+  padding-left: 6rem;
 }
 
 hr {
