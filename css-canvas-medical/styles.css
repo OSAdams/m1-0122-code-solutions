@@ -68,3 +68,7 @@ hr {
 .pad {
   padding: 1rem 6rem;
 }
+
+.overylay > h1 {
+  color: #fefefe;
+}
