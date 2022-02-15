@@ -1,7 +1,7 @@
 .container {
   margin: auto;
   font-family: Avenir, sans-serif;
-  width: 69%;
+  width: 70%;
 }
 
 .row {
@@ -30,7 +30,6 @@
 }
 
 .nav-link {
-  text-decoration: none;
   color: #a0a0a0;
 }
 
@@ -39,7 +38,7 @@
   color: #fefefe;
   background-color: #294464;
   padding: 0.7rem 1.125rem;
-  border-radius: 5px;
+  border-radius: 2.5px;
 }
 
 hr {
@@ -50,28 +49,48 @@ hr {
 
 /* home page info */
 .info-img {
+  height: 550px;
   background-image: url("images/hero.jpg");
   background-size: cover;
-  height: 300px;
   position: relative;
 }
 
 .overlay {
-  background: linear-gradient(transparent, rgb(0 0 0 / 30%));
+  background: rgb(0 0 0 / 20%);
   height: 100%;
+  border-top: 2.5rem solid #fefefe;
 }
 
 .info-header {
   color: #fefefe;
   font-family: "Tiempos Headline", sans-serif;
   font-weight: 300;
+  font-size: 40px;
+  width: 40%;
   position: absolute;
   top: 5rem;
-  left: 3rem;
+  left: 5rem;
 }
 
 .info-paragraph {
   color: #fefefe;
+  width: 45.8%;
+  position: absolute;
+  bottom: 9rem;
+  left: 5rem;
+  line-height: 1.75rem;
+}
+
+.info-button {
+  color: #fefefe;
+  background-color: #294464;
+  width: 10rem;
+  padding: 0.7rem 0;
+  text-align: center;
+  border-radius: 2.5px;
+  position: absolute;
+  bottom: 5.5rem;
+  left: 5rem;
 }
 
 /* re-usable margin and padding */
@@ -83,18 +102,34 @@ hr {
   padding-left: 6rem;
 }
 
+.pad-l-1rem {
+  padding-left: 2rem;
+}
+
 .pad-r-6rem {
   padding-right: 6rem;
+}
+
+.pad-t-1rem {
+  padding-top: 1rem;
 }
 
 .marg-t-1rem {
   margin-top: 1.5rem;
 }
 
-.marg-t-3rem {
-  margin-top: 3rem;
+.marg-t-4rem {
+  margin-top: 4rem;
 }
 
 .marg-b-1rem {
   margin-bottom: 1.25rem;
+}
+
+.marg-b-3rem {
+  margin-bottom: 3rem;
+}
+
+.no-text-dec {
+  text-decoration: none;
 }
