@@ -26,3 +26,14 @@ vehicle['isConvertible'] = false;
 console.log('value of vehicle["color"]: ', vehicle['color']);
 console.log('value of vehicle["isConvertible"]: ', vehicle['isConvertible']);
 console.log('value of vehicle: ', vehicle);
+
+var pet = {
+  name: 'Lulu',
+  type: 'Dog'
+};
+
+delete pet.name;
+delete pet.type;
+console.log('value of pet: ', pet);
+
+// comment to remove
