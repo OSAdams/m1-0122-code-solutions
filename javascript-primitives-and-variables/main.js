@@ -1,6 +1,9 @@
-// eslint-disable-next-line no-unused-vars
+// assign variables
 const fullName = 'Owen Adams';
-// eslint-disable-next-line no-unused-vars
 const isCool = true;
-// eslint-disable-next-line no-unused-vars
 const totalPets = 3;
+
+// console log value of variables
+console.log(`variable fullName equals: ${fullName}`);
+console.log(`variable isCool equals: ${isCool}`);
+console.log(`variable totalPets equals: ${totalPets}`);
