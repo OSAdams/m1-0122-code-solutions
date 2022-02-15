@@ -35,5 +35,3 @@ var pet = {
 delete pet.name;
 delete pet.type;
 console.log('value of pet: ', pet);
-
-// comment to remove
