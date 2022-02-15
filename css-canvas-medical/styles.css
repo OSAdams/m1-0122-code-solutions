@@ -49,14 +49,14 @@ hr {
 
 /* home page info */
 .info-img {
-  height: 550px;
+  height: 600px;
   background-image: url("images/hero.jpg");
   background-size: cover;
   position: relative;
 }
 
 .overlay {
-  background: rgb(0 0 0 / 20%);
+  background: rgb(51 51 51 / 20%);
   height: 100%;
   border-top: 2.5rem solid #fefefe;
 }
@@ -68,13 +68,13 @@ hr {
   font-size: 40px;
   width: 40%;
   position: absolute;
-  top: 5rem;
+  top: 5.5rem;
   left: 5rem;
 }
 
 .info-paragraph {
   color: #fefefe;
-  width: 45.8%;
+  width: 45%;
   position: absolute;
   bottom: 9rem;
   left: 5rem;
@@ -89,7 +89,7 @@ hr {
   text-align: center;
   border-radius: 2.5px;
   position: absolute;
-  bottom: 5.5rem;
+  bottom: 4.5rem;
   left: 5rem;
 }
 
