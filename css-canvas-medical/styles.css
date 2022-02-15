@@ -10,6 +10,7 @@
   margin: 1.5rem 0;
 }
 
+/* Navigation */
 .nav-row {
   height: 100%;
   display: flex;
@@ -44,6 +45,7 @@ hr {
   border: none;
 }
 
+/* home page info */
 .info-img {
   background-image: url("images/hero.jpg");
   background-size: cover;
@@ -54,13 +56,19 @@ hr {
 
 .overlay {
   background: linear-gradient(transparent, rgb(0 0 0 / 30%));
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
 }
 
+.info-header {
+  color: #fefefe;
+  font-family: "Tiempos Headline", sans-serif;
+  font-weight: 300;
+}
+
+.info-paragraph {
+  color: #fefefe;
+}
+
+/* re-usable margin and padding */
 .pad-lr-6rem {
   padding: 0 6rem;
 }
