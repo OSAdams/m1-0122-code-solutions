@@ -1,9 +1,9 @@
 // assign variables
-const fullName = 'Owen Adams';
-const isCool = true;
-const totalPets = 3;
-const unknown = null;
-let never;
+var fullName = 'Owen Adams';
+var isCool = true;
+var totalPets = 3;
+var unknown = null;
+var never;
 
 // console log value of variables
 console.log('value of fullName: ', fullName);
