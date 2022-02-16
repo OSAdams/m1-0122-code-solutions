@@ -27,3 +27,14 @@ console.log(mexico);
 
 // console log colors array
 console.log('value of colors: ', colors);
+
+// assign array literal to variable students
+var students = ['Vegeta', 'Goku', 'Piccalo', 'Gohan'];
+var numberOfStudents = students.length;
+var lastIndex = students.length - 1;
+var lastStudent = students[lastIndex];
+
+// console log values
+console.log('There are ' + numberOfStudents + ' in this class.');
+console.log('The last student in the array is ' + lastStudent);
+console.log('value of students: ', students);
