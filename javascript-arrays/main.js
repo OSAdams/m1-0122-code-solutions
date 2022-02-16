@@ -14,4 +14,16 @@ console.log('value of colors[2]: ', colors[2]);
 var murica = 'America is ' + colors[0] + ' ' + colors[1] + ' ' + colors[2] + '.';
 
 // console log value of new variable
-console.log('value of murica: ', murica);
+console.log(murica);
+
+// updated 2nd index of colors
+colors[2] = 'green';
+
+// concat all indexes of oclors array and assign to new variable
+var mexico = 'Meixco is ' + colors[0] + ' ' + colors[1] + ' ' + colors[2] + '.';
+
+// console log value of mexico variable
+console.log(mexico);
+
+// console log colors array
+console.log('value of colors: ', colors);
