@@ -10,6 +10,7 @@ body {
 .container {
   margin: auto;
   font-family: Barlow, sans-serif;
+  color: #0e0e0e;
   width: 80%;
 }
 
