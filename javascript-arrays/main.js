@@ -8,12 +8,12 @@ console.log('value of colors[0]: ', colors[0]);
 console.log('value of colors[1]: ', colors[1]);
 console.log('value of colors[2]: ', colors[2]);
 
-var murica = 'America is ' + colors[0] + ' ' + colors[1] + ' ' + colors[2] + '.';
+var murica = 'America is ' + colors[0] + ', ' + colors[1] + ', and ' + colors[2] + '.';
 
 console.log(murica);
 
 colors[2] = 'green';
-var mexico = 'Mexico is ' + colors[0] + ' ' + colors[1] + ' ' + colors[2] + '.';
+var mexico = 'Mexico is ' + colors[0] + ', ' + colors[1] + ', and ' + colors[2] + '.';
 
 console.log(mexico);
 console.log('value of colors: ', colors);
