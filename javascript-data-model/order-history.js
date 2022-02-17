@@ -144,7 +144,7 @@ var orderHistory = [
           dimensions: '7 x 1.19 x 10 inches',
           publisher: 'Independently published',
           binding: 'Paperback',
-          author: 'Alexander, Christopher',
+          author: 'Rauschmayer, Dr. Axel',
           pages: 426,
           price: 31.55
         }
