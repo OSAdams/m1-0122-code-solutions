@@ -176,4 +176,4 @@ var orderHistory = [
 console.log(orderHistory[0].order.total());
 console.log(orderHistory[1].order.total());
 console.log(orderHistory[2].order.total());
-console.log(orderHistory[0].order.total());
+console.log(orderHistory[3].order.total());
