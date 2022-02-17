@@ -8,6 +8,19 @@
   width: 100%;
 }
 
+h2 {
+  font-family: "Tiempos Headline", sans-serif;
+  font-weight: 500;
+}
+
+.col-full {
+  width: 100%;
+}
+
+.col-half {
+  width: 50%;
+}
+
 /* Navigation */
 .nav-row {
   height: 100%;
@@ -18,14 +31,6 @@
 
 .nav-logo {
   width: 40%;
-}
-
-.col-full {
-  width: 100%;
-}
-
-.col-half {
-  width: 50%;
 }
 
 .nav-link {
@@ -81,12 +86,6 @@ hr {
 }
 
 .info-button {
-  color: #fefefe;
-  background-color: #294464;
-  width: 10rem;
-  padding: 0.7rem 0;
-  text-align: center;
-  border-radius: 2.5px;
   position: absolute;
   bottom: 4.5rem;
   left: 5rem;
@@ -96,14 +95,9 @@ hr {
 
 .clinic-loc {
   background-color: rgb(250 250 250 / 25500%);
-  color: #707070;
+  color: rgb(112 112 112 / 25500%);
   text-align: center;
-  border-bottom: solid 1px #999;
-}
-
-.clinic-loc > .col-full > h2 {
-  font-family: "Tiempos Headline", sans-serif;
-  font-weight: 500;
+  border-bottom: 1px solid rgb(230 230 230);
 }
 
 .clinic-loc > .col-full > p {
@@ -112,6 +106,17 @@ hr {
 
 .clinic-loc > .col-full > .col-half > p {
   font-size: 18px;
+}
+
+/* learn more */
+
+.learn {
+  color: rgb(112 112 112 / 25500%);
+}
+
+.learn-button {
+  right: 0;
+  top: 2rem;
 }
 
 /* re-usable margin and padding */
@@ -131,12 +136,24 @@ hr {
   padding-right: 6rem;
 }
 
+.pad-t-0 {
+  padding-top: 0;
+}
+
 .pad-t-1rem {
   padding-top: 1rem;
 }
 
 .pad-t-2rem {
   padding-top: 2rem;
+}
+
+.pad-b-0 {
+  padding-bottom: 0;
+}
+
+.pad-b-1rem {
+  padding-bottom: 1rem;
 }
 
 .pad-b-2rem {
@@ -152,7 +169,7 @@ hr {
 }
 
 .marg-t-2rem {
-  margin-top: 2rem;
+  margin-top: 1.9rem;
 }
 
 .marg-t-3rem {
@@ -160,11 +177,19 @@ hr {
 }
 
 .marg-t-4rem {
-  margin-top: 4rem;
+  margin-top: 4.5rem;
+}
+
+.marg-b-0 {
+  margin-bottom: 0;
 }
 
 .marg-b-1rem {
   margin-bottom: 1.25rem;
+}
+
+.marg-b-2rem {
+  margin-bottom: 2rem;
 }
 
 .marg-b-3rem {
@@ -183,4 +208,20 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+.button-one {
+  color: #fefefe;
+  background-color: #294464;
+  padding: 0.7rem 2rem;
+  text-align: center;
+  border-radius: 2.5px;
 }
