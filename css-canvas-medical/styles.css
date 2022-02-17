@@ -6,7 +6,6 @@
 
 .row {
   width: 100%;
-  display: flex;
 }
 
 /* Navigation */
@@ -93,6 +92,18 @@ hr {
   left: 5rem;
 }
 
+/* clinics using canvas */
+
+.clinic-loc {
+  background-color: rgb(250 250 250 / 25500%);
+  color: rgb(110 110 110 / 25500%);
+  text-align: center;
+}
+
+.clinic-loc > .col-full > h2 {
+  font-family: "Tiempos Headline", sans-serif;
+}
+
 /* re-usable margin and padding */
 .pad-lr-6rem {
   padding: 0 6rem;
@@ -114,8 +125,20 @@ hr {
   padding-top: 1rem;
 }
 
+.pad-t-2rem {
+  padding-top: 2rem;
+}
+
 .marg-t-1rem {
   margin-top: 1.5rem;
+}
+
+.marg-t-2rem {
+  margin-top: 2rem;
+}
+
+.marg-t-3rem {
+  margin-top: 3rem;
 }
 
 .marg-t-4rem {
@@ -132,4 +155,8 @@ hr {
 
 .no-text-dec {
   text-decoration: none;
+}
+
+.flex {
+  display: flex;
 }
