@@ -88,10 +88,49 @@ var orderHistory = [
       date: '',
       items: []
     }
+  },
+  {
+    id: 2,
+    order: {
+      number: '113-9984268-1280257',
+      date: '19-07-2020',
+      items: [
+        {
+          number: '0195024028',
+          name: 'The Timeless Way of Building',
+          weight: '1.53 pounds',
+          dimensions: '7.9 x 1.5 x 5.6 inches',
+          publisher: 'Oxford University Press',
+          binding: 'Hard Cover',
+          author: 'Alexander, Christopher',
+          pages: 552,
+          price: 15.98
+        }
+      ],
+      total: function () {
+        var price = 0;
+        for (var i in this.items) {
+          price += this.items[i].price;
+        }
+        return 'the total for order #' + this.number + ' is $' + price;
+      }
+    },
+    delivery: {
+      shipped: true,
+      delivered: true,
+      date: '20-07-2020',
+      picture: ''
+    },
+    returns: {
+      returnBy: '19-08-2020',
+      isReturned: false,
+      date: '',
+      items: []
+    }
   }
 ];
 
 console.log(orderHistory[0].order.total());
 console.log(orderHistory[1].order.total());
-// console.log(orderHistory[0].order.total());
+console.log(orderHistory[2].order.total());
 // console.log(orderHistory[0].order.total());
