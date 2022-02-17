@@ -42,6 +42,7 @@ var orderHistory = [
     delivery: {
       shipped: true,
       delivered: true,
+      customerHome: false,
       date: '05-07-2020',
       picture: ''
     },
@@ -79,6 +80,7 @@ var orderHistory = [
     delivery: {
       shipped: true,
       delivered: true,
+      customerHome: true,
       date: '07-07-2020',
       picture: ''
     },
@@ -104,7 +106,7 @@ var orderHistory = [
           binding: 'Hard Cover',
           author: 'Alexander, Christopher',
           pages: 552,
-          price: 15.98
+          price: 41.33
         }
       ],
       total: function () {
@@ -118,11 +120,52 @@ var orderHistory = [
     delivery: {
       shipped: true,
       delivered: true,
+      customerHome: true,
       date: '20-07-2020',
       picture: ''
     },
     returns: {
       returnBy: '19-08-2020',
+      isReturned: false,
+      date: '',
+      items: []
+    }
+  },
+  {
+    id: 3,
+    order: {
+      number: '114-3941589-8772232',
+      date: '04-08-2020',
+      items: [
+        {
+          number: '1091210098',
+          name: 'JavaScript for impatient programmers',
+          weight: '2 pounds',
+          dimensions: '7 x 1.19 x 10 inches',
+          publisher: 'Independently published',
+          binding: 'Paperback',
+          author: 'Alexander, Christopher',
+          pages: 426,
+          price: 31.55
+        }
+      ],
+      total: function () {
+        var price = 0;
+        for (var i in this.items) {
+          price += this.items[i].price;
+        }
+        return 'the total for order #' + this.number + ' is $' + price;
+      }
+    },
+    delivery: {
+      shipped: true,
+      delivered: true,
+      customerHome: false,
+      date: '08-08-2020',
+      picture: ''
+    },
+    returns: {
+      returnBy: '07-09-2020',
       isReturned: false,
       date: '',
       items: []
