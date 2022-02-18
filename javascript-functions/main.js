@@ -40,3 +40,16 @@ var getFirstNameResult = getFirstName({ firstName: 'Lelouche', lastName: 'Lamper
 
 // console log a string and the variable getFirstNameResult
 console.log('getFirstNameResult:', getFirstNameResult);
+
+// define a function that takes an array as an argument
+// and returns the last index of the array
+function getLastElement(array) {
+  return array[array.length - 1];
+}
+
+// call the function with an array argument and assign
+// the return to a variable
+var getLastElementResult = getLastElement(['propane', 'and', 'propane', 'accessories']);
+
+// console log a string and the variable getLastElementResult
+console.log('getLastElementResult:', getLastElementResult);
