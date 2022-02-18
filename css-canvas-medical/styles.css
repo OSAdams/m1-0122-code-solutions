@@ -95,7 +95,7 @@ hr {
 
 .clinic-loc {
   background-color: rgb(250 250 250 / 25500%);
-  color: rgb(112 112 112 / 25500%);
+  color: rgb(82 82 80 / 25500%);
   text-align: center;
   border-bottom: 1px solid rgb(230 230 230);
 }
@@ -104,14 +104,10 @@ hr {
   width: 37.5%;
 }
 
-.clinic-loc > .col-full > .col-half > p {
-  font-size: 18px;
-}
-
 /* learn more */
 
 .learn {
-  color: rgb(112 112 112 / 25500%);
+  color: rgb(82 82 80 / 25500%);
 }
 
 .learn-button {
@@ -119,17 +115,32 @@ hr {
   top: 2rem;
 }
 
+/* site map */
+
+.site-map {
+  background-color: rgb(82 82 80 / 25500%);
+  color: #fefefe;
+}
+
+.site-logo {
+  width: 22.5%;
+}
+
+.site-map > div > div > div > p > a {
+  color: #fefefe;
+}
+
 /* re-usable margin and padding */
 .pad-lr-6rem {
   padding: 0 6rem;
 }
 
-.pad-l-6rem {
-  padding-left: 6rem;
+.pad-l-2rem {
+  padding-left: 2rem;
 }
 
-.pad-l-1rem {
-  padding-left: 2rem;
+.pad-l-6rem {
+  padding-left: 6rem;
 }
 
 .pad-r-6rem {
@@ -148,6 +159,10 @@ hr {
   padding-top: 2rem;
 }
 
+.pad-t-7r {
+  padding-top: 7rem;
+}
+
 .pad-b-0 {
   padding-bottom: 0;
 }
@@ -158,6 +173,10 @@ hr {
 
 .pad-b-2rem {
   padding-bottom: 4rem;
+}
+
+.pad-b-5rem {
+  padding-bottom: 5rem;
 }
 
 .marg-t-0 {
@@ -224,4 +243,16 @@ hr {
   padding: 0.7rem 2rem;
   text-align: center;
   border-radius: 2.5px;
+}
+
+.up-case {
+  text-transform: uppercase;
+}
+
+.ln-ht {
+  line-height: 1.75rem;
+}
+
+.fn-sz-18px {
+  font-size: 18px;
 }
