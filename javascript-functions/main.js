@@ -4,7 +4,7 @@ function convertMinutesToSeconds(minutes) {
 
 var convertMinutesToSecondsResult = convertMinutesToSeconds(5);
 
-console.log('Minutes to Seconds Result:', convertMinutesToSecondsResult);
+console.log('convertMinutesToSecondsResult:', convertMinutesToSecondsResult);
 
 // comment to remove
 
@@ -14,4 +14,29 @@ function greet(name) {
 
 var greetResult = greet('Beavis');
 
-console.log('Greet Result:', greetResult);
+console.log('greetResult:', greetResult);
+
+// create function that takes two arguments, width and height
+function getArea(w, h) {
+  return w * h;
+}
+
+// call the function with two numerical arguments and assign
+// the return to a variable
+var getAreaResult = getArea(17, 42);
+
+// console log a string and the variable getAreaResult
+console.log('getAreaResult:', getAreaResult);
+
+// create a function that takes an object as an argument,
+// function returns the value of property 'firstName'
+function getFirstName(person) {
+  return person.firstName;
+}
+
+// call the function with the object argument and assign
+// the return to a variable
+var getFirstNameResult = getFirstName({ firstName: 'Lelouche', lastName: 'Lamperouge' });
+
+// console log a string and the variable getFirstNameResult
+console.log('getFirstNameResult:', getFirstNameResult);
