@@ -126,8 +126,12 @@ hr {
   width: 22.5%;
 }
 
-.site-map > div > div > div > p > a {
+.site-map a {
   color: #fefefe;
+}
+
+.qk-url a {
+  color: rgb(82 82 80 / 25500%);
 }
 
 /* re-usable margin and padding */
@@ -137,6 +141,10 @@ hr {
 
 .pad-l-2rem {
   padding-left: 2rem;
+}
+
+.pad-l-3rem {
+  padding-left: 3rem;
 }
 
 .pad-l-6rem {
@@ -177,6 +185,11 @@ hr {
 
 .pad-b-5rem {
   padding-bottom: 5rem;
+}
+
+.pad-tb-2rem {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .marg-t-0 {
