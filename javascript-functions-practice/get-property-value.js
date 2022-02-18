@@ -2,5 +2,3 @@
 function getPropertyValue(object, key) {
   return object[key];
 }
-
-// comment to remove
