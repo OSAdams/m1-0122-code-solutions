@@ -1,0 +1,271 @@
+.container {
+  margin: auto;
+  font-family: Avenir, sans-serif;
+  width: 70%;
+}
+
+.row {
+  width: 100%;
+}
+
+h2 {
+  font-family: "Tiempos Headline", sans-serif;
+  font-weight: 500;
+}
+
+.col-full {
+  width: 100%;
+}
+
+.col-half {
+  width: 50%;
+}
+
+/* Navigation */
+.nav-row {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  width: 40%;
+}
+
+.nav-link {
+  color: #a0a0a0;
+}
+
+/* TEMPLATE FOR ALL BUTTONS */
+.nav-button {
+  color: #fefefe;
+  background-color: #294464;
+  padding: 0.7rem 1.125rem;
+  border-radius: 2.5px;
+}
+
+hr {
+  height: 1px;
+  background-color: #e7e9ec;
+  border: none;
+}
+
+/* home page info */
+.info-img {
+  height: 600px;
+  background-image: url("images/hero.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.overlay {
+  background: rgb(51 51 51 / 20%);
+  height: 100%;
+  border-top: 2.5rem solid #fefefe;
+}
+
+.info-header {
+  color: #fefefe;
+  font-family: "Tiempos Headline", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  width: 40%;
+  position: absolute;
+  top: 5.5rem;
+  left: 5rem;
+}
+
+.info-paragraph {
+  color: #fefefe;
+  width: 45%;
+  position: absolute;
+  bottom: 9rem;
+  left: 5rem;
+  line-height: 1.75rem;
+}
+
+.info-button {
+  position: absolute;
+  bottom: 4.5rem;
+  left: 5rem;
+}
+
+/* clinics using canvas */
+
+.clinic-loc {
+  background-color: rgb(250 250 250 / 25500%);
+  color: rgb(82 82 80 / 25500%);
+  text-align: center;
+  border-bottom: 1px solid rgb(230 230 230);
+}
+
+.clinic-loc > .col-full > p {
+  width: 37.5%;
+}
+
+/* learn more */
+
+.learn {
+  color: rgb(82 82 80 / 25500%);
+}
+
+.learn-button {
+  right: 0;
+  top: 2rem;
+}
+
+/* site map */
+
+.site-map {
+  background-color: rgb(82 82 80 / 25500%);
+  color: #fefefe;
+}
+
+.site-logo {
+  width: 22.5%;
+}
+
+.site-map a {
+  color: #fefefe;
+}
+
+.qk-url a {
+  color: rgb(82 82 80 / 25500%);
+}
+
+/* re-usable margin and padding */
+.pad-lr-6rem {
+  padding: 0 6rem;
+}
+
+.pad-l-2rem {
+  padding-left: 2rem;
+}
+
+.pad-l-3rem {
+  padding-left: 3rem;
+}
+
+.pad-l-6rem {
+  padding-left: 6rem;
+}
+
+.pad-r-6rem {
+  padding-right: 6rem;
+}
+
+.pad-t-0 {
+  padding-top: 0;
+}
+
+.pad-t-1rem {
+  padding-top: 1rem;
+}
+
+.pad-t-2rem {
+  padding-top: 2rem;
+}
+
+.pad-t-7r {
+  padding-top: 7rem;
+}
+
+.pad-b-0 {
+  padding-bottom: 0;
+}
+
+.pad-b-1rem {
+  padding-bottom: 1rem;
+}
+
+.pad-b-2rem {
+  padding-bottom: 4rem;
+}
+
+.pad-b-5rem {
+  padding-bottom: 5rem;
+}
+
+.pad-tb-2rem {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.marg-t-0 {
+  margin-top: 0;
+}
+
+.marg-t-1rem {
+  margin-top: 1.5rem;
+}
+
+.marg-t-2rem {
+  margin-top: 1.9rem;
+}
+
+.marg-t-3rem {
+  margin-top: 3rem;
+}
+
+.marg-t-4rem {
+  margin-top: 4.5rem;
+}
+
+.marg-b-0 {
+  margin-bottom: 0;
+}
+
+.marg-b-1rem {
+  margin-bottom: 1.25rem;
+}
+
+.marg-b-2rem {
+  margin-bottom: 2rem;
+}
+
+.marg-b-3rem {
+  margin-bottom: 3rem;
+}
+
+.no-text-dec {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-dir-col-cen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+.button-one {
+  color: #fefefe;
+  background-color: #294464;
+  padding: 0.7rem 2rem;
+  text-align: center;
+  border-radius: 2.5px;
+}
+
+.up-case {
+  text-transform: uppercase;
+}
+
+.ln-ht {
+  line-height: 1.75rem;
+}
+
+.fn-sz-18px {
+  font-size: 18px;
+}
