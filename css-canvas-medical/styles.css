@@ -141,11 +141,52 @@ a {
 .hero-content {
   padding: 4.75rem;
   position: relative;
-  color: white;
+  color: #fefefe;
 }
 
 .hero-content p {
   margin-bottom: 2rem;
+}
+
+.hero-image-product {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url("images/product/product-header.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: brightness(85%) contrast(75%) saturate(95%);
+}
+
+.hero-content-product {
+  padding: 10rem 4.75rem;
+  position: relative;
+  color: #fefefe;
+}
+
+.product > .container > .row {
+  align-items: center;
+  justify-content: flex-end;
+  padding: 5rem 0;
+}
+
+.product p {
+  line-height: 1.25rem;
+}
+
+.product:nth-child(odd) {
+  background-color: rgb(250 250 250);
+}
+
+.product > .container > .row > .column-half > img {
+  width: 100%;
+}
+
+.product-quote {
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: italic;
 }
 
 button.action {
@@ -156,7 +197,7 @@ button.action {
   font-family: Avenir, sans-serif;
   font-size: 1.25rem;
   font-weight: 100;
-  color: white;
+  color: #fefefe;
   background-color: rgb(41 68 100);
 }
 
@@ -168,6 +209,11 @@ button.action {
 
 .clinicians p {
   margin-bottom: 5.5rem;
+}
+
+.product > .container > .row p,
+h2 {
+  padding-left: 5rem;
 }
 
 .clinician-list {
@@ -189,7 +235,7 @@ button.action {
 
 .footer-top {
   padding: 7.25rem 0 6.75rem;
-  color: white;
+  color: #fefefe;
   background-color: rgb(82 83 81);
 }
 
@@ -211,7 +257,7 @@ button.action {
 
 .footer-bottom {
   padding: 3.5rem 0;
-  background-color: rgb(250 250 250);
+  background-color: #fefefe;
 }
 
 .bottom-links {
@@ -234,6 +280,6 @@ button.action {
 .nav-links > li.action {
   padding: 0.75rem 1rem;
   border-radius: 4px;
-  color: white;
+  color: #fefefe;
   background-color: rgb(41 68 100);
 }
