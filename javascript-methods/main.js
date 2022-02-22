@@ -97,3 +97,29 @@ library.splice(1, 1);
 
 // console log library
 console.log('final value of library:', library);
+
+// STRING METHODS
+
+// declare variable with strin gvalue
+var fullName = 'Owen Adams';
+
+// console log fullName
+console.log('value of fullName:', fullName);
+
+// call split method of fullName pass space char as argument and assing return to new variable
+var firstAndLastName = fullName.split(' ');
+
+// console log firstlastname
+console.log('value of firstAndLastName:', firstAndLastName);
+
+// grabt first index of firstAndLastName and assign it to variable
+var firstName = firstAndLastName[0];
+
+// console log firstnaem
+console.log('value of firstName:', firstName);
+
+// call touppercase method of firstName object and assign return value to variable
+var sayMyName = firstName.toUpperCase();
+
+// console .log say my name
+console.log('you\'re goddamn right:', sayMyName);
