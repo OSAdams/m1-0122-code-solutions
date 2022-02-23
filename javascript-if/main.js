@@ -9,31 +9,19 @@
  */
 
 function isUnderFive(number) {
-  if (number < 5) {
-    return true;
-  }
-  return false;
+  return number < 5;
 }
 
 function isEven(number) {
-  if (number % 2 === 0) {
-    return true;
-  }
-  return false;
+  return number % 2 === 0;
 }
 
 function startsWithJ(string) {
-  if (string[0] === 'J') {
-    return true;
-  }
-  return false;
+  return string[0] === 'J';
 }
 
 function isOldEnoughToDrink(person) {
-  if (person.age >= 21) {
-    return true;
-  }
-  return false;
+  return person.age >= 21;
 }
 
 function isOldEnoughToDrinkAndDrive(person) {
@@ -41,16 +29,12 @@ function isOldEnoughToDrinkAndDrive(person) {
 }
 
 function categorizeAcidity(pH) {
-  if (pH === 7) {
-    return 'neutral';
+  if (pH < 0 || pH > 14) {
+    return 'invalid pH level';
   }
-  if (pH >= 0 && pH < 7) {
-    return 'acid';
-  }
-  if (pH <= 14 && pH > 7) {
-    return 'base';
-  }
-  return 'invalid pH level';
+  if (pH > 7) return 'acid';
+  if (pH < 7) return 'base';
+  return 'neutral';
 }
 
 function introduceWarnerBro(name) {
