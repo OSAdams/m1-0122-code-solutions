@@ -66,5 +66,3 @@ function getValues(object) {
   }
   return values;
 }
-
-// comment
