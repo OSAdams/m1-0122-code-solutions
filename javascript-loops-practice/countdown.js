@@ -2,7 +2,7 @@
 
 function countdown(number) {
   if (typeof number !== 'number' || number < 0) {
-    return 'Please pass a positive integer as an argument';
+    return 'Error: argument must be a positive integer';
   }
   const cdResult = [];
   while (number >= 0) {
