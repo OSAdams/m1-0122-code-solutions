@@ -5,5 +5,27 @@
 }
 
 body {
+  margin: 0;
+}
+
+.container {
   margin: auto;
+  width: 80%;
+}
+
+header h1 {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.col-fifth {
+  flex-basis: 20%;
+}
+
+.col-fifth img {
+  width: 100%;
 }
