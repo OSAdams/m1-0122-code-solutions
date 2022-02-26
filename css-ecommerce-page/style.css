@@ -2,6 +2,7 @@
   box-sizing: border-box;
   background-color: #fefefe;
   color: #0a0a0a;
+  font-family: "DM Sans", sans-serif;
 }
 
 body {
@@ -24,6 +25,7 @@ header h1 {
 
 .col-fifth {
   flex-basis: 20%;
+  padding: 0 1.25rem;
 }
 
 .item {
@@ -32,7 +34,7 @@ header h1 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 1rem;
+  margin: 1rem 0;
 }
 
 .first {
