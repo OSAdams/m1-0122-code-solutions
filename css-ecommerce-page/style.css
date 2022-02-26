@@ -28,14 +28,30 @@ header h1 {
   padding: 0 1.25rem;
 }
 
+.col-fifth > p {
+  font-weight: bold;
+  padding-left: 1rem;
+}
+
+.item-info,
+del {
+  color: rgb(167 167 167);
+}
+
+.item-price {
+  background-color: rgb(255 197 197);
+}
+
 .item {
   width: 100%;
   height: 400px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 1rem 0;
+  margin: 1rem;
 }
+
+/* reeeee */
 
 .first {
   background-image: url("images/dress1.jpeg");
