@@ -1,72 +1,72 @@
-* {
-  box-sizing: border-box;
-  background-color: #fefefe;
-  color: #0a0a0a;
+body {
+  margin: 0;
   font-family: "DM Sans", sans-serif;
 }
 
-body {
-  margin: 0;
-}
-
-.container {
-  margin: auto;
-  width: 80%;
-}
-
-header h1 {
+h1 {
   text-align: center;
 }
 
-.row {
+p {
+  width: 100%;
+}
+
+.container {
   display: flex;
-  justify-content: center;
-}
-
-.col-fifth {
-  flex-basis: 20%;
-  padding: 0 1.25rem;
-}
-
-.col-fifth > p {
-  font-weight: bold;
-  padding-left: 1rem;
-}
-
-.item-info,
-del {
-  color: rgb(167 167 167);
-}
-
-.item-price {
-  background-color: rgb(255 197 197);
+  justify-content: space-evenly;
+  align-items: center;
+  width: 75%;
+  margin: auto;
 }
 
 .item {
-  width: 100%;
-  height: 400px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 1rem;
+  flex-basis: 18%;
 }
 
-.first {
+.item-image {
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+.r-dress {
+  background-image: url("images/dress2.jpeg");
+}
+
+.fp-dress {
   background-image: url("images/dress1.jpeg");
 }
 
-.second {
+.ysl-bag {
   background-image: url("images/ysl-bag.jpeg");
 }
 
-.third {
-  background-image: url("images/key.jpeg");
-}
-
-.fourth {
+.lv-bag {
   background-image: url("images/lv-bag.jpg");
 }
 
-.fifth {
-  background-image: url("images/dress2.jpeg");
+.t-key {
+  background-image: url("images/key.jpeg");
+}
+
+.brand {
+  padding-right: 5px;
+}
+
+.size {
+  padding-left: 5px;
+  border-left: 1px solid lightgray;
+  color: lightgray;
+}
+
+.price {
+  background-color: #fff1e6;
+  padding: 0 2px;
+  border-radius: 5px;
+}
+
+.retail {
+  color: lightgray;
+  margin-left: 5px;
 }
