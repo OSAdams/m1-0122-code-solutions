@@ -5,5 +5,3 @@ function getWords(string) {
   }
   return string.split(' ');
 }
-
-// do not return string.split('') for an empty array return - uses more resources bad bad
