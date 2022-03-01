@@ -1,4 +1,12 @@
 /* exported tail */
+/*
+  define a function with one parameter
+  assign an empty array to a variable
+  return empty array if the argument passed is an empty array
+  initialize a for loop and iterate through the argument passed starting and 2nd value (index 1)
+  push index values into empty array
+  return said array
+*/
 function tail(array) {
   // assign an empty array to a variable
   const result = [];
