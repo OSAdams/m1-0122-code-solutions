@@ -18,5 +18,6 @@ function takeRight(array, count) {
     return array;
   }
   // return array.slice(array.length - count);
-  return array.slice(array.length - count);
+  // UPDATE -- using negative intergers requires less resources (easier expression to use)
+  return array.slice(count * -1);
 }
