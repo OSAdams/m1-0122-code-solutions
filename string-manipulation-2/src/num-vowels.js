@@ -1,5 +1,8 @@
 /* exported numVowels */
 function numVowels(string) {
+  if (typeof string !== 'string') {
+    return { error: 'Invalid argument passed. Argument must be a string' };
+  }
   const vowels = ['a', 'e', 'i', 'o', 'u'];
   const lowerString = string.toLowerCase();
   let result = 0;
