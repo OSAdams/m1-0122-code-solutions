@@ -14,5 +14,3 @@ function swapChars(firstIndex, secondIndex, string) {
   }
   return result;
 }
-
-// comment to remove
