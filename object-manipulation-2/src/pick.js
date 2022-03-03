@@ -15,16 +15,12 @@ function pick(source, keys) {
   }
   // assign object literal to variable
   const result = {};
-  // initialize for loop to loop through array
-  for (let i = 0; i < keys.length; i++) {
-    // initialize for... in loop to loop through object
-    for (const k in source) {
-      // if the value at keys[i] are absolutely equal to k
-      // and source[k] is not equal to undefined
-      if (keys[i] === k && source[k] !== undefined) {
-        // assign source[k] value to result[keys[i]]
-        result[keys[i]] = source[k];
-      }
+  // initialize a for in loop
+  for (const k in source) {
+    // check if keys includes the value of k, and if source[k] is not undefined
+    if (keys.includes(k) && source[k] !== undefined) {
+      // assign result[k] the value of source[k]
+      result[k] = source[k];
     }
   }
   // return result
