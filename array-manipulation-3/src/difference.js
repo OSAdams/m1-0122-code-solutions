@@ -18,7 +18,7 @@ function difference(first, second) {
   const result = [];
   // for...in loop for first
   for (const i in first) {
-    // expression to change if the spread of second includes the value of first[i]
+    // expression to check if second does not include the value of first[i]
     if (!second.includes(first[i])) {
       // if it doesn't, push the value into result
       result.push(first[i]);
@@ -26,7 +26,7 @@ function difference(first, second) {
   }
   // for...in loop for second
   for (const k in second) {
-    // if the spread of first doesnt include the value of second[k]
+    // if the first doesnt include the value of second[k]
     if (!first.includes(second[k])) {
       // push the value into result
       result.push(second[k]);
