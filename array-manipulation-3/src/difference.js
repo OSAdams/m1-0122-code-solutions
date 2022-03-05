@@ -36,4 +36,4 @@ function difference(first, second) {
   return (!Array.isArray(first) || !Array.isArray(second)) ? err : result;
 }
 
-// update comments after union
+// update comments after finished
