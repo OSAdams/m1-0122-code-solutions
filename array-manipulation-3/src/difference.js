@@ -35,5 +35,3 @@ function difference(first, second) {
   // return result of ternary operator
   return (!Array.isArray(first) || !Array.isArray(second)) ? err : result;
 }
-
-// update comments after finished
