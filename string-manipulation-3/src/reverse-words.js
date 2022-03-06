@@ -11,5 +11,3 @@ function reverseWords(string) {
   }
   return result.join(' ');
 }
-
-// remove
