@@ -1,8 +1,6 @@
 /* exported titleCase */
 function titleCase(string) {
-  if (typeof string !== 'string') {
-    return { error: 'Invalid argument passed. Argument must be a string' };
-  }
+  const err = { error: 'Invalid argument passed. Argument must be a string' };
   const lwrArray = string.toLowerCase().split(' ');
   const result = [];
   const exceptions = ['The', 'Of', 'And', 'In', 'To', 'On', 'For'];
@@ -23,10 +21,9 @@ function titleCase(string) {
       result[i] = 'JavaScript';
     } else if (result[i] === 'Javascript:') {
       result[i] = 'JavaScript:';
-    }
-    if (result[i] === 'Api') {
+    } else if (result[i] === 'Api') {
       result[i] = 'API';
     }
   }
-  return result.join(' ');
+  return (typeof string !== 'string') ? err : result.join(' ');
 }
