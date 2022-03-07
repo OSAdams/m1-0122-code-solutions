@@ -50,11 +50,11 @@ const players = [
     hand: []
   },
   {
-    name: 'Kim Wexler',
+    name: 'Tyrell Welick',
     hand: []
   },
   {
-    name: 'Tyrell Welick',
+    name: 'Kim Wexler',
     hand: []
   }
 ];
