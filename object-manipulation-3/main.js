@@ -20,7 +20,7 @@ function deck() {
           : value[j] === 'Q'
             ? addToIndex = 0
             : addToIndex = 2;
-      fullDeck.push(new BuildCards(parseInt(value[j], j + addToIndex), suit[i]));
+      fullDeck.push(new BuildCards(value[j], parseInt(j + addToIndex), suit[i]));
     }
   }
   return fullDeck;
@@ -31,20 +31,37 @@ const shuffledDeck = _.shuffle(deck());
 const players = [
   {
     name: 'Elliot Alderson',
-    hand: []
+    hand: [],
+    finalScore: 0
   },
   {
     name: 'James McGill',
-    hand: []
+    hand: [],
+    finalScore: 0
   },
   {
-    name: 'Tyrell Welick',
-    hand: []
+    name: 'Tyrell Welick', // fuck
+    hand: [],
+    finalScore: 0
   },
   {
     name: 'Kim Wexler',
-    hand: []
+    hand: [],
+    finalScore: 0
   }
 ];
 
-console.log(shuffledDeck, players);
+function dealCards() {
+  let playersIndex = 0;
+  for (let i = 0; i < players.length * 2; i++) {
+    if (playersIndex > 3) {
+      playersIndex = 0;
+    }
+    players[playersIndex].hand.push(shuffledDeck[i]);
+    const handShort = players[playersIndex].hand.length - 1;
+    players[playersIndex].finalScore += players[playersIndex].hand[handShort].score;
+    playersIndex++;
+  }
+}
+
+dealCards();
