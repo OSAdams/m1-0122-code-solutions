@@ -59,7 +59,7 @@ const players = [
     finalScore: 0
   },
   {
-    name: 'Tyrell Welick', // fuck
+    name: 'Tyrell Welick',
     hand: [],
     finalScore: 0
   },
