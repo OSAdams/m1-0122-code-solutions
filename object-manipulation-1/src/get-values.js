@@ -9,9 +9,9 @@ function getValues(object) {
   // assing empty array to variab
   const result = [];
   // loop through object
-  for (let i in object) {
+  for (const key in object) {
     // push values of keys to result array
-    result.push(object[i])
+    result.push(object[key]);
   }
   // return result array
   return result;

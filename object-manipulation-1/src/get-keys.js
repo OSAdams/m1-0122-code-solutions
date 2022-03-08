@@ -10,9 +10,9 @@ function getKeys(object) {
   // assign empty array to variable
   const result = [];
   // loop through object
-  for (let keys in object) {
+  for (const key in object) {
     // push key to result array
-    result.push(keys);
+    result.push(key);
   }
   // return result
   return result;
