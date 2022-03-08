@@ -19,11 +19,11 @@ function omit(source, keys) {
   // assign object literal to result
   const result = {};
   // initialize a for... in loop
-  for (const k in source) {
+  for (const key in source) {
     // if keys does not include the value of k
-    if (!keys.includes(k)) {
+    if (!keys.includes(key)) {
       // assign result at k the value of source[k]
-      result[k] = source[k];
+      result[key] = source[key];
     }
   }
   // return result

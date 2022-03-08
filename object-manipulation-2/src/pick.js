@@ -16,11 +16,11 @@ function pick(source, keys) {
   // assign object literal to variable
   const result = {};
   // initialize a for in loop
-  for (const k in source) {
+  for (const key in source) {
     // check if keys includes the value of k, and if source[k] is not undefined
-    if (keys.includes(k) && source[k] !== undefined) {
+    if (typeof source[key] !== 'undefined') {
       // assign result[k] the value of source[k]
-      result[k] = source[k];
+      result[key] = source[key];
     }
   }
   // return result

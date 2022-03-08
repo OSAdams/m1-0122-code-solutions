@@ -4,8 +4,8 @@ function invert(source) {
     return { error: 'Invalid argument passed. Argument must be an object' };
   }
   const result = {};
-  for (const i in source) {
-    result[source[i]] = i;
+  for (const key in source) {
+    result[source[key]] = key;
   }
   return result;
 }
