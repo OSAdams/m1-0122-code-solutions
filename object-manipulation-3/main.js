@@ -26,22 +26,22 @@ function createDeck() {
   // return fullDeck;
   const values = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A'];
   const suits = ['Clubs', 'Diamonds', 'Hearts', 'Spades'];
-  const scores = { J: 10, Q: 10, K: 10, A: 11 };
+  // eslint-disable-next-line
+  const scores = { 'J': 10, 'Q': 10, 'K': 10, 'A': 11 };
   const deck = [];
   for (const suitIndex in suits) {
     const suit = suits[suitIndex];
-    console.log(suit);
     for (const valueIndex in values) {
       const value = values[valueIndex];
       let score = parseInt(value);
-      console.log(score);
-      if (score) {
-        score = scores.valueIndex;
+      if (isNaN(value)) {
+        score = scores[value];
       }
       const card = { score, value, suit };
       deck.push(card);
     }
   }
+  console.log(deck);
   return deck;
 }
 
@@ -92,10 +92,10 @@ function decideWinner(para) {
   let lastIndexOfDeck = 8;
   let winner = null;
   let score = 0;
-  for (const i in para) {
-    if (para[i].finalScore > score) {
-      winner = para[i].name;
-      score = para[i].finalScore;
+  for (const player in para) {
+    if (para[player].finalScore > score) {
+      winner = para[player].name;
+      score = para[player].finalScore;
     }
   }
   for (const l in para) {
@@ -108,18 +108,17 @@ function decideWinner(para) {
     to use tieBreaker for maths. WIP
   */
   if (tieBreaker.length > 1) {
-    for (const i in tieBreaker) {
-      tieBreaker[i].hand.push(shuffledDeck[lastIndexOfDeck]);
-      tieBreaker[i].finalScore += tieBreaker[i].hand[tieBreaker[i].hand.length - 1].score;
-      if (tieBreaker[i].finalScore > score) {
-        winner = tieBreaker[i].name;
-        score = tieBreaker[i].finalScore;
+    for (const player in tieBreaker) {
+      tieBreaker[player].hand.push(shuffledDeck[lastIndexOfDeck]);
+      tieBreaker[player].finalScore += tieBreaker[player].hand[tieBreaker[player].hand.length - 1].score;
+      if (tieBreaker[player].finalScore > score) {
+        winner = tieBreaker[player].name;
+        score = tieBreaker[player].finalScore;
       }
       lastIndexOfDeck++;
     }
-  } else {
-    return `${winner} has won the draw with a score of ${score}`;
   }
+  return `${winner} has won the draw with a score of ${score}`;
 }
 
 console.log(decideWinner(players));
