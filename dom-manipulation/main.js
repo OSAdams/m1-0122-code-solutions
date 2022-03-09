@@ -16,5 +16,3 @@ $hotButton.addEventListener('click', e => {
             ? $hotButton.className = hButton + ' hot'
             : $hotButton.className = hButton + ' nuclear';
 });
-
-// comment to remove
