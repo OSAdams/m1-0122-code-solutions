@@ -126,16 +126,24 @@ a {
   position: relative;
 }
 
-.hero-image {
+.hero-image,
+.hero-image-product {
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: url("images/hero.jpg");
   background-size: cover;
   background-position: center;
   filter: brightness(85%) contrast(75%) saturate(95%);
+}
+
+.hero-image {
+  background-image: url("images/hero.jpg");
+}
+
+.hero-image-product {
+  background-image: url("images/product/product-header.jpg");
 }
 
 .hero-content {
@@ -146,18 +154,6 @@ a {
 
 .hero-content p {
   margin-bottom: 2rem;
-}
-
-.hero-image-product {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image: url("images/product/product-header.jpg");
-  background-size: cover;
-  background-position: center;
-  filter: brightness(85%) contrast(75%) saturate(95%);
 }
 
 .hero-content-product {
@@ -211,11 +207,6 @@ button.action {
   margin-bottom: 5.5rem;
 }
 
-.product > .container > .row p,
-h2 {
-  padding-left: 5rem;
-}
-
 .clinician-list {
   font-size: 1.25rem;
 }
@@ -231,6 +222,11 @@ h2 {
 
 .call-to-action h2 {
   margin-bottom: 0;
+}
+
+.product:nth-child(odd) > .container > .row p,
+.product:nth-child(odd) > .container > .row h2 {
+  padding-left: 5rem;
 }
 
 .footer-top {
