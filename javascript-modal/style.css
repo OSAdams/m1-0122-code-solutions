@@ -5,6 +5,7 @@
 body {
   margin: 0;
   background-color: #fefefe;
+  font-family: sans-serif;
 }
 
 .modal-container {
@@ -45,6 +46,18 @@ body {
   height: 10rem;
   border-radius: 5px;
   background-color: #fefefe;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.modal > p {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.modal > .close-modal {
+  background-color: red;
 }
 
 .hidden {
