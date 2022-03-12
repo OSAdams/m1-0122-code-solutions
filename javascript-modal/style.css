@@ -23,9 +23,6 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px rgb(131 131 131);
   font-size: larger;
-}
-
-.open-modal:hover {
   cursor: pointer;
 }
 
@@ -52,12 +49,22 @@ body {
 }
 
 .modal > p {
+  margin-top: 2rem;
   font-size: larger;
   font-weight: bold;
 }
 
 .modal > .close-modal {
-  background-color: red;
+  margin: auto;
+  background-color: rgb(255 93 93);
+  border: none;
+  width: 5rem;
+  height: 2.5rem;
+  color: #fefefe;
+  font-size: larger;
+  border-radius: 5px;
+  box-shadow: 0 2px rgb(0 0 0 / 41.8%);
+  cursor: pointer;
 }
 
 .hidden {
