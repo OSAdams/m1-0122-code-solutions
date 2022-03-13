@@ -34,4 +34,5 @@ function reset(event) {
     $text[i].style.color = '#020202';
   }
   textCounter = 0;
+  $text[textCounter].style.borderBottom = 'thick solid #020202';
 }

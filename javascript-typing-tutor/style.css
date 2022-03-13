@@ -49,11 +49,23 @@ h1 {
   border-radius: 5px;
   color: #020202;
   width: 300px;
-  height: 100px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .play-again {
+  margin-top: 30px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px #020202;
   background-color: rgb(38 187 38);
+  color: #fefefe;
+  cursor: pointer;
+  width: 100px;
+  height: 1.5rem;
 }
 
 .hidden {
