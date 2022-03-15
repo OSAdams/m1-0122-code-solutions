@@ -127,7 +127,8 @@ a {
 }
 
 .hero-image,
-.hero-image-product {
+.hero-image-product,
+.hero-image-impementation {
   position: absolute;
   top: 0;
   right: 0;
@@ -144,6 +145,10 @@ a {
 
 .hero-image-product {
   background-image: url("images/product/product-header.jpg");
+}
+
+.hero-image-implementation {
+  background-image: url("images/implementation/implementation-header.jpg");
 }
 
 .hero-content {
