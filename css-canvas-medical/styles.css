@@ -201,17 +201,24 @@ a {
   font-style: italic;
 }
 
-.implementation-header > .container > .row > .column-full {
+section.implementation {
+  margin-bottom: 10rem;
+}
+
+.implementation-header > .container > .row > .column-full > h2 {
   text-align: center;
+  font-size: 2rem;
 }
 
 .implementation > .container > .row > .column-full {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .imp-info-num {
   font-size: 1.9rem;
+  margin-right: 0.5rem;
 }
 
 .imp-info-header {
@@ -219,7 +226,8 @@ a {
 }
 
 .implementation-info {
-  margin-top: 3rem;
+  margin-top: 2rem;
+  min-width: 600px;
 }
 
 button.action {
@@ -257,7 +265,7 @@ button.action {
   border-top: 1px solid rgb(231 233 236);
 }
 
-.call-to-action h2 {
+.call-to-action > .container > .row > .column-half > h2 {
   margin-bottom: 0;
 }
 
