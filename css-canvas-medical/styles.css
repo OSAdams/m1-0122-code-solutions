@@ -5,7 +5,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+.imp-info-num {
   margin: 0;
   font-family: "Tiempos Headline", sans-serif;
   font-weight: 300;
@@ -127,7 +128,8 @@ a {
 }
 
 .hero-image,
-.hero-image-product {
+.hero-image-product,
+.hero-image-implementation {
   position: absolute;
   top: 0;
   right: 0;
@@ -146,7 +148,13 @@ a {
   background-image: url("images/product/product-header.jpg");
 }
 
-.hero-content {
+.hero-image-implementation {
+  background-image: url("images/implementation/implementation-header.jpg");
+}
+
+.hero-content,
+.hero-content-product,
+.hero-content-implementation {
   padding: 4.75rem;
   position: relative;
   color: #fefefe;
@@ -156,10 +164,17 @@ a {
   margin-bottom: 2rem;
 }
 
+.hero-content-implementation p {
+  margin-bottom: 3rem;
+  line-height: 1.5rem;
+}
+
+.hero-content-implementation h1 {
+  margin-top: 2rem;
+}
+
 .hero-content-product {
   padding: 10rem 4.75rem;
-  position: relative;
-  color: #fefefe;
 }
 
 .product > .container > .row {
@@ -168,7 +183,8 @@ a {
   padding: 5rem 0;
 }
 
-.product p {
+.product p,
+.implementation-info > p {
   line-height: 1.25rem;
 }
 
@@ -183,6 +199,35 @@ a {
 .product-quote {
   font-family: "Tiempos Headline", sans-serif;
   font-style: italic;
+}
+
+section.implementation {
+  margin-bottom: 10rem;
+}
+
+.implementation-header > .container > .row > .column-full > h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.implementation > .container > .row > .column-full {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imp-info-num {
+  font-size: 1.9rem;
+  margin-right: 0.5rem;
+}
+
+.imp-info-header {
+  font-size: larger;
+}
+
+.implementation-info {
+  margin-top: 2rem;
+  min-width: 600px;
 }
 
 button.action {
@@ -220,7 +265,7 @@ button.action {
   border-top: 1px solid rgb(231 233 236);
 }
 
-.call-to-action h2 {
+.call-to-action > .container > .row > .column-half > h2 {
   margin-bottom: 0;
 }
 
