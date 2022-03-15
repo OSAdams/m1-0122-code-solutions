@@ -5,7 +5,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+.imp-info-num {
   margin: 0;
   font-family: "Tiempos Headline", sans-serif;
   font-weight: 300;
@@ -165,6 +166,7 @@ a {
 
 .hero-content-implementation p {
   margin-bottom: 3rem;
+  line-height: 1.5rem;
 }
 
 .hero-content-implementation h1 {
@@ -181,7 +183,8 @@ a {
   padding: 5rem 0;
 }
 
-.product p {
+.product p,
+.implementation-info > p {
   line-height: 1.25rem;
 }
 
@@ -205,6 +208,18 @@ a {
 .implementation > .container > .row > .column-full {
   display: flex;
   justify-content: center;
+}
+
+.imp-info-num {
+  font-size: 1.9rem;
+}
+
+.imp-info-header {
+  font-size: larger;
+}
+
+.implementation-info {
+  margin-top: 3rem;
 }
 
 button.action {
