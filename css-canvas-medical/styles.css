@@ -198,6 +198,15 @@ a {
   font-style: italic;
 }
 
+.implementation-header > .container > .row > .column-full {
+  text-align: center;
+}
+
+.implementation > .container > .row > .column-full {
+  display: flex;
+  justify-content: center;
+}
+
 button.action {
   height: 3.5rem;
   padding: 0 3rem;
