@@ -56,3 +56,41 @@ var pokedex = [
     imageUrl: 'images/blastoise.png'
   }
 ];
+
+function renderPokemon(pokemon) {
+  const columnThird = document.createElement('div');
+  columnThird.className = 'column-third';
+
+  const pokemonCard = document.createElement('div');
+  pokemonCard.className = 'pokemon-card';
+  columnThird.appendChild(pokemonCard);
+
+  const pokemonImg = document.createElement('img');
+  pokemonImg.setAttribute('src', pokemon.imageUrl);
+  pokemonCard.appendChild(pokemonImg);
+
+  const pokemonCardText = document.createElement('div');
+  pokemonCardText.className = 'pokemon-card-text';
+  pokemonCard.appendChild(pokemonCardText);
+
+  const pokemonH2 = document.createElement('h2');
+  pokemonH2.textContent = pokemon.name;
+  pokemonCardText.appendChild(pokemonH2);
+
+  const pokemonH3 = document.createElement('h3');
+  pokemonH3.textContent = '#' + pokemon.number;
+  pokemonCardText.appendChild(pokemonH3);
+
+  const pokemonP = document.createElement('p');
+  pokemonP.textContent = pokemon.description;
+  pokemonCardText.appendChild(pokemonP);
+
+  return columnThird;
+}
+
+// query dom for row assign to variable
+const $row = document.querySelector('.row');
+// loop through pokedex and appendChild to row at every index calling renderPokemon function
+for (const pokeIndex in pokedex) {
+  $row.appendChild(renderPokemon(pokedex[pokeIndex]));
+}

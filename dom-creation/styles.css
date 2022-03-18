@@ -55,3 +55,7 @@ p {
   width: 100%;
   background-color: rgb(210 210 210);
 }
+
+.hidden {
+  display: none;
+}
