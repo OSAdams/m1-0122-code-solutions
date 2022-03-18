@@ -88,9 +88,7 @@ function renderPokemon(pokemon) {
   return columnThird;
 }
 
-// query dom for row assign to variable
 const $row = document.querySelector('.row');
-// loop through pokedex and appendChild to row at every index calling renderPokemon function
 for (const pokeIndex in pokedex) {
   $row.appendChild(renderPokemon(pokedex[pokeIndex]));
 }
