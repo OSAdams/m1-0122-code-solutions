@@ -9,5 +9,3 @@ $taskList.addEventListener('click', e => {
     closestToEventTarget.remove();
   }
 });
-
-// comment to remove
