@@ -1,6 +1,5 @@
 const $tabContainer = document.querySelector('.tab-container');
 const $tabs = document.querySelectorAll('.tab');
-// eslint-disable-next-line
 const $views = document.querySelectorAll('.view');
 
 $tabContainer.addEventListener('click', swapView);
